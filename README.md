@@ -31,8 +31,10 @@ This software is assumed in the instructions below.
 1. (Optional, if no custom dataset) Extract training data from `training_data.zip`.
 2. Set the paths to point to the train data in `training_config.yaml`.
 3. If using CPU for training, put `device=CPU` in the options `model.train` in the notebook `train_yolo.ipynb`. To use GPU put `device=0` or e.g. `device=[0,1]` if multiple GPUs are available.
-4. Run the `train_yolo.ipynb` Jupyter notebook to train the model.
+4. Activate the environment `conda activate defect_detection`
+5. Run the `train_yolo.ipynb` Jupyter notebook in the environment to train the model.
 
 ## Usage
-1. Make an output folder for the labeled images
-2. Modify and run the Jupyter notebook `predict_yolo.ipynb` to detect defects in images.
+1. Make an output folder for the labeled images.
+2. Activate the environment `conda activate defect_detection`.
+3. Modify and run the Jupyter notebook `predict_yolo.ipynb` in the Anaconda environment to detect defects in images.
