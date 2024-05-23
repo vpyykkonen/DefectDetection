@@ -34,4 +34,5 @@ This software is assumed in the instructions below.
 4. Run the `train_yolo.ipynb` Jupyter notebook to train the model.
 
 ## Usage
-1. Modify and run the Jupyter notebook `predict_yolo.ipynb`
+1. Make an output folder for the labeled images
+2. Modify and run the Jupyter notebook `predict_yolo.ipynb` to detect defects in images.
